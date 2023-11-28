@@ -25,8 +25,8 @@ describe('validarLinks', () => {
   it('validações dos links', () => {
     const links = [
       { href: 'https://www.google.com/', text: 'Google', file: './test/files/oneFile.md' },
-      { href: 'https://github.com/thamiresfebbo', text: 'GitHub', file: './test/files/oneFile.md' },
-      { href: 'https://github.com/febbex', text: 'Link Quebrado', file: './test/files/oneFile.md' }
+      { href: 'https://github.com/emilainesantos', text: 'GitHub', file: './test/files/oneFile.md' },
+      { href: 'https://github.com/emmilaine', text: 'Link Quebrado', file: './test/files/oneFile.md' }
     ];
 
     return validarLinks(links).then(resultados => {
