@@ -1,6 +1,5 @@
 Git e Node
 
-[Git](https://git-scm.com/)
 
 [GitHub](https://github.com/)
 
@@ -8,4 +7,4 @@ Git e Node
 
 [Node.js](https://nodejs.org/en)
 
-[Node.js](https://nodejs.org/enjsdhhdjsad)
+[Link Quebrado](https://nodejs.org/enjsdhhdjsad)
