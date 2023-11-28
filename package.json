@@ -4,9 +4,6 @@
   "engines": {
     "node": ">=16.x"
   },
-
-  
-
   "bootcamp": {
     "createdAt": "2023-09-20T11:50:43.165Z",
     "version": "6.2.0",
@@ -16,5 +13,8 @@
     "chalk": "^4.1.2",
     "node-fetch": "^3.3.2",
     "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
