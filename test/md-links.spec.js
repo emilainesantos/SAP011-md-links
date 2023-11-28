@@ -26,7 +26,7 @@ describe('validarLinks', () => {
     const links = [
       { href: 'https://www.google.com/', text: 'Google', file: './test/files/oneFile.md' },
       { href: 'https://github.com/emilainesantos', text: 'GitHub', file: './test/files/oneFile.md' },
-      { href: 'https://github.com/emmilaine', text: 'Link Quebrado', file: './test/files/oneFile.md' }
+      { href: 'https://github.com/emi21654341d54fsg', text: 'Link Quebrado', file: './test/files/oneFile.md' }
     ];
 
     return validarLinks(links).then(resultados => {
