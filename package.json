@@ -2,18 +2,19 @@
   "name": "md-links",
   "version": "0.1.0",
   "engines": {
-  "node": ">=16.x"
+    "node": ">=16.x"
   },
 
+  
 
   "bootcamp": {
-  "createdAt": "2023-09-20T11:50:43.165Z",
-  "version": "6.2.0",
-  "commit": "a5360f78b634be4f14eaea996ee4c7afc85a2f48"
+    "createdAt": "2023-09-20T11:50:43.165Z",
+    "version": "6.2.0",
+    "commit": "a5360f78b634be4f14eaea996ee4c7afc85a2f48"
   },
-
-
   "dependencies": {
-  "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.3.2",
+    "valid-url": "^1.0.9"
   }
 }
