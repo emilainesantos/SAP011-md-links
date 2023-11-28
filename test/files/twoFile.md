@@ -1,5 +1,7 @@
 Teste de leitura de arquivo.
 
- test: node cli ./test/files/oneFile.md
+retornar links : node cli ./test/files/oneFile.md
 
- node cli ./test/files/oneFile.md
+ validacao: node cli ./test/files/oneFile.md --validate
+
+ test : ng run test
