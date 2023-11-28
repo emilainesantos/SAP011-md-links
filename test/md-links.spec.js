@@ -14,7 +14,7 @@ describe('mdLinks', () => {
   });
 
   it('Ler sem links', () => {
-    return mdLinks('./test/files/vazio.md').then(links => {
+    return mdLinks('./test/files/twoFile.md').then(links => {
       expect(links).toBeInstanceOf(Array);
       expect(links).toHaveLength(0);
     });

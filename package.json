@@ -9,6 +9,11 @@
     "version": "6.2.0",
     "commit": "a5360f78b634be4f14eaea996ee4c7afc85a2f48"
   },
+
+"scripts":{
+"test": "jest"
+},
+
   "dependencies": {
     "chalk": "^4.1.2",
     "node-fetch": "^3.3.2",
