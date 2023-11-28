@@ -1,8 +1,5 @@
 const fs = require("fs"); /*biblioteca nativa do Node n precisa de instalação */
 
-function soma(a, b) {
-  return a + b;
-}
 
 function lerArquivos(caminhoDoArquivo){
   return new Promise(function(resolve, reject){
@@ -16,4 +13,4 @@ function lerArquivos(caminhoDoArquivo){
   });
 
 }
-module.exports = { soma, lerArquivos };
+module.exports = { lerArquivos };
